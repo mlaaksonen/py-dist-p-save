@@ -59,7 +59,7 @@ while stop == 0:
                 if module[m][2] <= tlm:
                     print('      ok (%s) %s [%s]' % (m, module[m][0], pftime))
                 else:
-                    print('******** (%s) %s [%s]' % (m, moduli[m][0], pftime))
+                    print('******** (%s) %s [%s]' % (m, module[m][0], pftime))
     print("---------------------------------------------------------")
     ready=0
     while ready==0:
